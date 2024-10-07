@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">날씨 앱</string>
+    <string name="seoul">서울</string>
+    <string name="busan">부산</string>
+    <string name="daegu">대구</string>
+    <string name="weather_info">날씨 정보가 여기에 표시됩니다.</string>
+</resources>

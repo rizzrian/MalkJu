@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/gradient_background"> <!-- 그라데이션 배경 -->
+
+    <Button
+        android:id="@+id/buttonSeoul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서울"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.HipButton" />
+
+    <Button
+        android:id="@+id/buttonBusan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="부산"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.HipButton" />
+
+    <Button
+        android:id="@+id/buttonDaegu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="대구"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.HipButton" />
+
+    <Button
+        android:id="@+id/buttonIncheon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인천"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.HipButton" />
+
+    <Button
+        android:id="@+id/buttonGwangju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="광주"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.HipButton" />
+
+    <Button
+        android:id="@+id/buttonDaejeon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="대전"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.HipButton" />
+
+    <Button
+        android:id="@+id/buttonUlsan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="울산"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.HipButton" />
+
+    <Button
+        android:id="@+id/buttonSejong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="세종"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.HipButton" />
+
+    <LinearLayout
+        android:id="@+id/weatherCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_card"
+        android:padding="16dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/weatherIcon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cloud"
+            android:layout_gravity="center" />
+
+
+        <TextView
+            android:id="@+id/weatherInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="날씨 정보를 선택해주세요"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+
+
+        <TextView
+            android:id="@+id/weatherComparison"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="노르웨이 기상청 / 한국 기상청"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

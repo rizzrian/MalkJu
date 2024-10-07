@@ -1,0 +1,9 @@
+<resources>
+    <color name="neon_purple">#9b5de5</color>  <!-- 네온 보라색 -->
+    <color name="neon_pink">#f15bb5</color>    <!-- 네온 핑크 -->
+    <color name="neon_yellow">#fee440</color>  <!-- 네온 노랑 -->
+    <color name="neon_green">#00f5d4</color>   <!-- 네온 그린 -->
+    <color name="dark_background">#1e1e1e</color> <!-- 다크 배경 -->
+    <color name="light_text">#FFFFFF</color>   <!-- 밝은 텍스트 -->
+    <color name="dark_text">#212121</color>    <!-- 어두운 텍스트 -->
+</resources>

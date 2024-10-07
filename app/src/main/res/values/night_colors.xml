@@ -1,0 +1,13 @@
+<resources>
+    <color name="purple_500">#BB86FC</color>  <!-- 서울 버튼 색상 (다크 모드) -->
+    <color name="purple_700">#3700B3</color>  <!-- 서울 variant -->
+    <color name="teal_200">#03DAC5</color>    <!-- 부산 버튼 색상 (유지) -->
+    <color name="orange_500">#FB8C00</color>  <!-- 대구 버튼 색상 (다크 모드) -->
+    <color name="green_500">#4CAF50</color>   <!-- 인천 버튼 색상 (다크 모드) -->
+    <color name="red_500">#E53935</color>     <!-- 광주 버튼 색상 (다크 모드) -->
+    <color name="blue_500">#1E88E5</color>    <!-- 대전 버튼 색상 (다크 모드) -->
+    <color name="yellow_500">#FBC02D</color>  <!-- 울산 버튼 색상 (다크 모드) -->
+    <color name="pink_500">#D81B60</color>    <!-- 세종 버튼 색상 (다크 모드) -->
+    <color name="white">#FFFFFF</color>       <!-- 공통 색상 -->
+    <color name="black">#000000</color>       <!-- 공통 색상 -->
+</resources>
